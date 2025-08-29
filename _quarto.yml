@@ -1,0 +1,23 @@
+
+
+format:
+  html:
+    embed-resources: true
+    include-in-header: |
+      <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
+    toc: true
+    toc-depth: 2
+    code-fold: true
+    code-tools: true
+    code-overflow: wrap
+    theme: cosmo
+    number-sections: true
+    self-contained: true
+    execute:
+      enabled: true
+      echo: false
+      warning: false
+      error: true
+      cache: false
+      python:
+        executable: .venv/bin/python
